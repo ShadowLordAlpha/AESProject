@@ -19,6 +19,8 @@ public final class AES {
 	}
 
 	// useful for debugging
+	// From a stackoverflow answer however I do not remember which one as it is
+	// a common function 
 	final protected static char[] hexArray = "0123456789ABCDEF".toCharArray();
 
 	public static String bytesToHex(byte[] bytes) {
@@ -240,7 +242,7 @@ public final class AES {
 
 		/**
 		 * Helper method to do multiplication because for some reason it needs
-		 * to be complicated
+		 * to be complicated. Modified from wikipidea example C# Code for mixColumns
 		 * 
 		 * @param a
 		 * @param b

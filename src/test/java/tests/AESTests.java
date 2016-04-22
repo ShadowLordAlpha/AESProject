@@ -3,10 +3,9 @@ package tests;
 import static org.junit.Assert.fail;
 
 import java.nio.ByteBuffer;
-import java.util.Arrays;
 
-import org.junit.*;
-import org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 import cse.aes.AES;
 
